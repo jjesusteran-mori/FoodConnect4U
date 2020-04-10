@@ -174,6 +174,70 @@ var foodLocation = [{
     "phone number": "(949) 552-2727",
     "website": "http://www.families-forward.org",
     "hours": "For more information, please call."
+},
+{
+    "name" : "Bridge Community Church Food Pantry",
+    "address" : "710 S Cambridge Street",
+    "city": "Orange",
+    "state": "CA",
+    "zip Code": "92866",
+    "phone number": "(714) 997-8881",
+    "website":"http://www.zcc.org",
+    "hours": "1st and 3rd Wednesday of each month 10:00am - 1:00pm"
+},{
+  "name" : "St Norberts Christian Services",
+  "address" : "300 E. Taft Ave",
+  "city": "Orange",
+  "state": "CA",
+  "zip Code": "92865",
+  "phone number": "(714) 637-4360",
+  "website":"http://www.stnorbertchurch.org/index.html",
+  "hours": " Saturday Hot Meal 12:30pm - 2:00pm On call 7 days"
+},{
+  "name" : "St Johns Lutheran Church",
+  "address" : "154 S. Shaffer St.",
+  "city": "Orange",
+  "state": "CA",
+  "zip Code": "92866",
+  "phone number": "714-228-8440",
+  "website":"http://www.stjohnsorange.org",
+  "hours": "Saturday 8:00am - 10:00am (closed last Saturday of the month)"
+},{
+  "name" : "Praise Chapel",
+  "address" : "1125 W Alvarez Ave.",
+  "city": "Orange",
+  "state": "CA",
+  "zip Code": "92868",
+  "phone number": "714-588-1577",
+  "website":"http://www.praisechapel.com",
+  "hours": "Thursday 5:00pm"
+},{
+  "name" : "River 47",
+  "address" : "250 S. Prospect Ave.",
+  "city": "Orange",
+  "state": "CA",
+  "zip Code": "92869",
+  "phone number": "714-633-6464x10",
+  "website":"hhttp://www.river47.org",
+  "hours": "Call for appointment once a month.Hours:Tuesday and Thursday9:00am - 2:00pm"
+},{
+  "name" : "Orange Elderly Services Inc",
+  "address" : "170 S Olive St",
+  "city": "Orange",
+  "state": "CA",
+  "zip Code": "92866",
+  "phone number": "(714) 538-9633",
+  "website":"http://www.orangeseniorcenter.org",
+  "hours": " Seniors only. Pantry Hours: Emergency Food 3rd Tuesday of the month 9:00amFor more information, please call."
+},{
+  "name" : "Orange Hills Assembly",
+  "address" : "2910 N Santiago Blvd.",
+  "city": "Orange",
+  "state": "CA",
+  "zip Code": "92867",
+  "phone number": "714-974-7333",
+  "website":"http://www.orangehills.net",
+  "hours": "Monday through Thursday 10:00am to 2:00pm"
 }]
 
 console.log(foodLocation.map(function(a){
