@@ -107,7 +107,7 @@ var foodLocation = [{
     "address" : "2050 W. Ball Road",
     "city": "Anaheim",
     "state": "CA",
-    "zip Code": "92804"
+    "zip Code": "92804",
     "lat & lon": "33.8173226,-117.9557374",
     "phone number": "(714) 774-2595",
     "website": "http://www.saintjustin.org",
@@ -218,11 +218,11 @@ var foodLocation = [{
   "address" : "250 S. Prospect Ave.",
   "city": "Orange",
   "state": "CA",
-  "zip Code": "92869"
-  "lat & lon": "33.7645702,-117.8383178",,
+  "zip Code": "92869",
+  "lat & lon": "33.7645702,-117.8383178",
   "phone number": "714-633-6464x10",
   "website":"hhttp://www.river47.org",
-  "hours": "Call for appointment once a month.Hours:Tuesday and Thursday9:00am - 2:00pm"
+  "hours": "Call for appointment once a month.Hours:Tuesday and Thursday9:00am - 2:00pm",
 },{
   "name" : "Orange Elderly Services Inc",
   "address" : "170 S Olive St",
