@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     
     <link rel="stylesheet" href="assets/marketing.css">
+    
     <!-- <script async defer
     src="https://maps.googleapis.com/maps/api/js?key= &callback=initMap">
     </script> -->
-
+    <script src="address.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -43,26 +45,15 @@
         <p class="splash-head"><a id="topOfPage">We are looking to bridge the gap between starving families and food donors. We aim to simplify the complex journey of low-income families take in locating fresh food.</a></p>
         <!-- map section -->
         <div class="mapSec col-6" id="map">
-            
-        </div>
-        <script>
-    // Initialize and add the map
-    function initMap() {
-      // The location of Uluru 33.6394877,-118.3298942
-      var uluru = {lat: 33.7175, lng: -117.8311};
-      // The map, centered at Uluru
-      var map = new google.maps.Map(
-          document.getElementById('map'), {zoom: 11, center: uluru});
-      // The marker, positioned at Uluru
-      var marker = new google.maps.Marker({position: uluru, map: map});
-    }
-        </script>
+</div>
 
-
-        
         <!-- list section -->
-        <div class="listSec col-6">
-
+        <div class="listSec col-6" id="list">
+            <div class="card-body">
+                <h6 class="card-title"></h6>
+                <p class="card-text" id="infoText"></p>
+            </div>
+        </div>
         </div>
         <!-- <p class="splash-subhead">
         We are looking to bridge the gap between starving families and food donors. We aim to simplify the complex journey of low-income families take in locating fresh food.
@@ -107,15 +98,24 @@
     </div>
 
     <div class="ribbon l-box-lrg pure-g">
-        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-            <img width="300" alt="File Icons" class="pure-img-responsive" src="/img/common/file-icons.png">
+        <div id="stats" class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
         </div>
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
 
+<!-- address-->
             <h2 class="content-head content-head-ribbon">This is where the Stats will go</h2>
 
             <p>
                 STATS HERE
+<!-- -->
+            <h2 class="content-head content-head-ribbon">PERCENTAGE OF FAMILIES AND PEOPLE WHOSE INCOME IN THE PAST 12 MONTHS IS BELOW THE POVERTY LEVEL</h2>
+
+            <p>
+                FoodConnect4U is dedicated towards lowering the amount of times people go hungry.
+                One of the key indicators of hungry families is the roughly 1 and 10 families in the Orange County,CA area are suffering.
+                Please join and partner with us wether your a family or indivudal in need or somoeone who wants to help out.
+                 
+<!-- development-->
             </p>
         </div>
     </div>
@@ -195,8 +195,8 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtqVSPxPNF192v-PmiutR8TLM
 </script>
 
 <script src="script.js"></script>
-<script src="address.js.js"></script>
-<script src="addressOnly.js.js"></script>
+<script src="censusT.js"></script>
+
 </body>
 
 </body>
