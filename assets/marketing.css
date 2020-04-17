@@ -322,12 +322,13 @@ a.pure-button-primary {
     color: white;
     font-weight: bolder;
 }
-#censusDs, #infoText{
+#censusDs{
 text-align: center;
 }
-
+#infoText{
+    padding: 15%;
+}
 .centerMap {
     position:relative;
     left:50%;
 }
-
