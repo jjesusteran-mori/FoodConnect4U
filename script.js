@@ -17,19 +17,24 @@ function initMap() {
     var marker = new google.maps.Marker({position: {lat:lat, lng:lng}, map: map});
     // infowindow.setContent('Name - ' + puppy.name);
     // infowindow.open(map, this);
-    infowindow = new google.maps.InfoWindow()
+   infowindow = new google.maps.InfoWindow()
     google.maps.event.addListener(marker, 'click', function () {
       infowindow.setContent(puppy.name);
       infowindow.open(map, this);
+
+      var listDisplay1 = document.getElementById("infoText");
+      for (i=0; i<foodLocation.length; i++){
+        function appendLocations() {
+          listDisplay1.append(`${puppy.name}${puppy.address}${puppy.city}${puppy.state}${puppy.zipCode}${puppy.phoneNumber}${puppy.hours}`).split()
+        }
+      appendLocations();
+    };
     });
-    
-    for (i=0; i<foodLocation.length; i++){
-      var listDisplay = $("#list")
-      function appendLocations(place) {
-      listDisplay.append(`<div class="card-body"><h6 class="card-title">${puppy.name}</h6><p class="card-text">${puppy.address}</p></div></div>`)
-    }
-    appendLocations();
-  };
+
+
+
+
+  
     // function appendLocations(puppy) {
     //   $('#list').prepend(`<div class="card-body"><h6 class="card-title">${puppy.name}</h6><p class="card-text">${puppy.address}</p></div></div>`)
     // }
