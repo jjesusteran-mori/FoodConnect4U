@@ -287,7 +287,7 @@ a.pure-button-primary {
     background-color: grey;
     margin: 60px 5px;
     position: absolute;
-    top: 30px; left: 0; bottom: 0; right: 0;
+    top: 50px; left: 0; bottom: 0; right: 0;
     text-align: center;
 }
 .listSec{
@@ -296,7 +296,7 @@ a.pure-button-primary {
     background-color: white;
     margin: 60px 5px;
     position: absolute;
-    top: 30px; left: 100%; bottom: 0; right: 0;
+    top: 50px; left: 100%; bottom: 0; right: 0;
     text-align: center;
 }
 /*
@@ -311,9 +311,7 @@ a.pure-button-primary {
     } */
 }
 
-<<<<<<< HEAD
 
-=======
 .pure-g{
     display: flex;
     justify-content: center;
@@ -327,4 +325,9 @@ a.pure-button-primary {
 #censusDs, #infoText{
 text-align: center;
 }
->>>>>>> fe5b19cdee38c159ee14876c96b97f49684cfc11
+
+.centerMap {
+    position:relative;
+    left:50%;
+}
+

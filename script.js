@@ -38,6 +38,8 @@ function initMap() {
       newDiv.append(hours);
       
       listDisplay1.html(newDiv);
+      $('.listSec').css('display', 'block');
+      $('.mapSec').removeClass('centerMap');
 
     //   for (i=0; i<foodLocation.length; i++){
     //     function appendLocations() {
