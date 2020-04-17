@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     
     <link rel="stylesheet" href="assets/marketing.css">
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtqVSPxPNF192v-PmiutR8TLMQhg0C4CU&callback=initMap">
-    </script>
-
+    <!-- <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key= &callback=initMap">
+    </script> -->
+    <script src="address.js"></script>
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -42,12 +42,16 @@
     <div class="splash">
         <p class="splash-head"><a id="topOfPage">We are looking to bridge the gap between starving families and food donors. We aim to simplify the complex journey of low-income families take in locating fresh food.</a></p>
         <!-- map section -->
-        <div class="mapSec col-6">
+        <div class="mapSec col-6" id="map">
+</div>
 
-        </div>
         <!-- list section -->
-        <div class="listSec col-6">
-
+        <div class="listSec col-6" id="list">
+            <div class="card-body">
+                <h6 class="card-title"></h6>
+                <p class="card-text" id="infoText"></p>
+            </div>
+        </div>
         </div>
         <!-- <p class="splash-subhead">
         We are looking to bridge the gap between starving families and food donors. We aim to simplify the complex journey of low-income families take in locating fresh food.
@@ -210,9 +214,12 @@ app.yui.use('node-base', 'node-event-delegate', function (Y) {
 });
 </script>
 
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtqVSPxPNF192v-PmiutR8TLMQhg0C4CU&callback=initMap">
+</script>
+
 <script src="script.js"></script>
-<script src="address.js.js"></script>
-<script src="addressOnly.js.js"></script>
+
 </body>
 
 </body>
