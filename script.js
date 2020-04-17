@@ -22,18 +22,32 @@ function initMap() {
       infowindow.setContent(puppy.name);
       infowindow.open(map, this);
 
-      var listDisplay1 = document.getElementById("infoText");
-      for (i=0; i<foodLocation.length; i++){
-        function appendLocations() {
-          listDisplay1.append(`${puppy.name}${puppy.address}${puppy.city}${puppy.state}${puppy.zipCode}${puppy.phoneNumber}${puppy.hours}`).split()
-        }
-      appendLocations();
-    };
+      var listDisplay1 = $("#infoText");
+
+      var newDiv = $("<div>");
+      var puppyName = $(`<p>${puppy.name}</p>`);
+      newDiv.append(puppyName);
+      var address = $(`<p> address: ${puppy.address} ${puppy.city} ${puppy.state} ${puppy.zipCode}</p>`);
+      newDiv.append(address);
+      var phone = $(`<p>phone number: ${puppy.phoneNumber}</p>`);
+      newDiv.append(phone);
+      var hours = $(`<p>hours: ${puppy.hours}</p>`);
+      newDiv.append(hours);
+      
+      listDisplay1.html(newDiv);
+
+    //   for (i=0; i<foodLocation.length; i++){
+    //     function appendLocations() {
+    //       listDisplay1.append(`${puppy.name}${puppy.address}${puppy.city}${puppy.state}${puppy.zipCode}${puppy.phoneNumber}${puppy.hours}`).split()
+    //     }
+    //   appendLocations();
+    // };
     });
 
-
-
-
+    // $("infoText").click(function() {
+    //   var htmlString = $( this ).html();
+    //   $( this ).text( htmlString );
+    // });
   
     // function appendLocations(puppy) {
     //   $('#list').prepend(`<div class="card-body"><h6 class="card-title">${puppy.name}</h6><p class="card-text">${puppy.address}</p></div></div>`)

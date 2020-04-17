@@ -311,4 +311,16 @@ a.pure-button-primary {
     } */
 }
 
+.pure-g{
+    display: flex;
+    justify-content: center;
+}
 
+#stats {
+    font-size: 75px;
+    color: white;
+    font-weight: bolder;
+}
+#censusDs, #infoText{
+text-align: center;
+}
