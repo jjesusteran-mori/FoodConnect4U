@@ -311,6 +311,7 @@ a.pure-button-primary {
     } */
 }
 
+
 .pure-g{
     display: flex;
     justify-content: center;
@@ -329,3 +330,4 @@ text-align: center;
     position:relative;
     left:50%;
 }
+

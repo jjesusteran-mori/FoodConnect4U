@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+// api
+=======
 
 // api
 // display map section or orange county
@@ -60,3 +63,4 @@ function initMap() {
 //for loop
 
 //ul list
+>>>>>>> fe5b19cdee38c159ee14876c96b97f49684cfc11
