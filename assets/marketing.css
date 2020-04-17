@@ -311,4 +311,20 @@ a.pure-button-primary {
     } */
 }
 
+<<<<<<< HEAD
 
+=======
+.pure-g{
+    display: flex;
+    justify-content: center;
+}
+
+#stats {
+    font-size: 75px;
+    color: white;
+    font-weight: bolder;
+}
+#censusDs, #infoText{
+text-align: center;
+}
+>>>>>>> fe5b19cdee38c159ee14876c96b97f49684cfc11
