@@ -27,10 +27,10 @@ function initMap() {
       var newDiv = $("<div>");
       var puppyName = $(`<p>${puppy.name}</p>`);
       newDiv.append(puppyName);
-      var address = $(`<p> address: ${puppy.address} ${puppy.city} ${puppy.state} ${puppy.zipCode}</p>`);
-      newDiv.append(address);
       var phone = $(`<p>phone number: ${puppy.phoneNumber}</p>`);
       newDiv.append(phone);
+      var address = $(`<p> address: ${puppy.address} ${puppy.city} ${puppy.state} ${puppy.zipCode}</p>`);
+      newDiv.append(address);
       var hours = $(`<p>hours: ${puppy.hours}</p>`);
       newDiv.append(hours);
       
